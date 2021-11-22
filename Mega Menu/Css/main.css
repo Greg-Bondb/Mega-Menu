@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #CCC;
+    margin-right: 250px;
+}
+
+.Menu {
+    list-style: none;
+    margin-top: 40px;
+    margin-left: 100px;
+    background: #23364B;
+    font-size: 18px;
+    width: 100%;
+    height: 52px;
+}
+
+.Menu li:hover{
+    background: #F36428;
+}
+
+.Accueil {
+    margin-left: -40px;
+    background: #F36428;
+    padding: 14px;
+    border: 1px dashed #CCC;
+}
+
+.Sous-menus {
+    margin-left: 85px;
+    padding: 15px;
+    border: 1px dashed #CCC;
+}
+
+.Services {
+    margin-left: 270px;
+    padding: 15px;
+    border: 1px dashed #CCC;
+}
+
+.Portfolio {
+    margin-left: 407px;
+    padding: 15px;
+    border: 1px dashed #CCC;
+}
+
+.Mega-menu {
+    margin-left: 554px;
+    padding: 15px;
+    border: 1px dashed #CCC;
+}
+
+.Blog {
+    margin-left: 710px;
+    padding: 15px;
+    border: 1px dashed #CCC;
+}
+
+.Images {
+    margin-left: 810px;
+    padding: 15px;
+    border: 1px dashed #CCC;
+}
+
+.Contact {
+    margin-left: 929px;
+    padding: 15px;
+    border: 1px dashed #CCC;
+}
+
+/* -------------------------------------------------------------- */
+
+.Menu li:hover .Option1 li {
+    display: block;
+}
+
+.Option1 li {
+    list-style: none;
+    display: none;
+    text-align: center;
+    margin-left: -95px;
+    background: #365670;
+    width: 225px;
+    height: 18px;
+    border: 1px dashed #CCC;
+    padding: 15px;
+}
+
+/* -------------------------------------------------------------- */
+
+.A {
+    margin-top: 15px;
+}
+
+.Option1 li:hover .a {
+    display: block;
+}
+
+.Menu .Sous-menus .Option1 .A .a li {
+    width: 150px;
+}
+
+.a {
+    display: none;
+    text-align: center;
+    margin-left: 294px;
+    background: #365670;
+    border: 1px dashed #CCC;
+}
+
+.A1 {
+    margin-top: -36px;
+}
+
+.A2 {
+    margin-top: 12px;
+}
+
+.A3 {
+    margin-top: 60px;
+}
+
+/* -------------------------------------------------------------- */
+
+.B {
+    margin-top: 64px;
+}
+
+.Option1 li:hover .b {
+    display: block;
+}
+
+.Menu .Sous-menus .Option1 .B .b li {
+    width: 150px;
+}
+
+.b {
+    display: none;
+    text-align: center;
+    margin-left: -142px;
+    background: #365670;
+    border: 1px dashed #CCC;
+}
+
+.B1 {
+    margin-top: -36px;
+}
+
+.B2 {
+    margin-top: 12px;
+}
+
+.B3 {
+    margin-top: 60px;
+}
+
+/* -------------------------------------------------------------- */
+
+.C {
+    margin-top: 112px;
+}
+
+/* -------------------------------------------------------------- */
+
+.Menu li:hover .Option2 {
+    display: block;
+}
+
+.Option2 {
+    display: none;
+}
+
+/* -------------------------------------------------------------- */
+
+.Menu .Mega-menu .Option2 li:hover{
+    background: none;
+}
+
+.Fond1 {
+    margin-left: -650px;
+    margin-top: 15px;
+    background: #365670;
+    list-style: none;
+    width: 1289px;
+    height: 18px;
+    padding: 15px;
+}
+
+.Menu .Mega-menu .Option2 li.Fond1:hover{
+    background: #365670;
+}
+
+.Fond2 {
+    margin-left: -650px;
+    margin-top: 60px;
+    background: #547787;
+    list-style: none;
+    width: 1289px;
+    height: 300px;
+    padding: 15px;
+}
+
+.Menu .Mega-menu .Option2 li.Fond2:hover{
+    background: #547787;
+}
+
+.D1 {
+    margin-top: 30px;
+    margin-left: -640px;
+    list-style: none;
+}
+
+.D2 {
+    margin-top: 30px;
+    margin-left: -350px;
+    list-style: none;
+}
+
+.D3 {
+    margin-top: 30px;
+    margin-left: -50px;
+    list-style: none;
+}
+
+.D4 {
+    margin-top: 30px;
+    margin-left: 300px;
+    list-style: none;
+}
+
+.Fond {
+    margin-left: -635px;
+    margin-top: 130px;
+}
+
+/* -------------------------------------------------------------- */
+
+input:hover {
+    background: #F36428;
+}
+
+.E1{
+    margin-top: -250px;
+    margin-left: -370px;
+}
+
+.E2{
+    margin-top: -200px;
+    margin-left: -370px;
+}
+
+.E3{
+    margin-top: -150px;
+    margin-left: -370px;
+}
+
+.E4{
+    margin-top: -100px;
+    margin-left: -370px;
+}
+
+.E5{
+    margin-top: -50px;
+    margin-left: -370px;
+}
+
+.E6{
+    color: #CCC;
+    list-style: none;
+    border: none;
+    margin-left: -395px;
+    font-size: 18px;
+    background: #2987C5;
+}
+
+/* -------------------------------------------------------------- */
+
+p {
+    margin-top: 5px;
+    margin-left: -15px;
+    margin-right: -100px;
+    color: #9AAAB7;
+}
+
+.F1{
+    margin-top: -250px;
+    margin-left: -70px;
+}
+
+.F2{
+    margin-top: -190px;
+    margin-left: -70px;
+}
+
+.F3{
+    margin-top: -130px;
+    margin-left: -70px;
+}
+
+.F4{
+    margin-top: -70px;
+    margin-left: -70px;
+}
+
+.F5{
+    color: #CCC;
+    list-style: none;
+    border: none;
+    margin-left: -95px;
+    font-size: 18px;
+    background: #2987C5;
+}
+
+/* -------------------------------------------------------------- */
+
+.Menu .Mega-menu .Option2 .G li{
+    list-style: none;
+    margin-left: 280px;
+    margin-right: -500px; 
+    padding: 5px;
+}
+
+.Menu .Mega-menu .Option2 .G i{
+    background: #2987C5;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.G1{
+    margin-top: -250px;
+}
+
+.G2{
+    margin-top: -190px;
+}
+
+.G3{
+    margin-top: -130px;
+}
+
+.G4{
+    margin-top: -70px;
+}
+
+.G5{
+    color: #CCC;
+    list-style: none;
+    border: none;
+    margin-left: 295px;
+    font-size: 18px;
+    background: #2987C5;
+}
